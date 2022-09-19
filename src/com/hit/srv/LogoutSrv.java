@@ -19,18 +19,9 @@ import com.hit.beans.VendorBean;
 @WebServlet("/LogoutSrv")
 public class LogoutSrv extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
     public LogoutSrv() {
         super();
-        // TODO Auto-generated constructor stub
     }
-
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		HttpSession session = request.getSession();
@@ -39,12 +30,8 @@ public class LogoutSrv extends HttpServlet {
 		session.setAttribute("password", "");
 		session.setAttribute("vendordata", new VendorBean());
 		
-		response.sendRedirect("logoutSuccess.jsp");
+		response.sendRedirect("index.jsp");
 	}
-
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request,response);
 	}
