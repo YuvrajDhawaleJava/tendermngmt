@@ -4,28 +4,23 @@
 <style>
 th, tr {
 	height: 50px;
-	border: 2px black solid;
 }
 
 td {
 	min-width: 145px;
-	border: 2px dashed black;
 }
 
 table {
 	text-align: center;
 	border-radius: 10px;
-	border: 1px red solid;
 	text-align: center;
-	background-color: cyan;
 	margin: 20px;
-	color: blue;
+	color: #5c5c8a;
 	font-style: normal;
-	font-size: 15px;
+	font-size: 15.5px;
 	padding: 20px;
 	cellpadding: 10;
 	cellspacing: 10;
-	margin-left: 0px;
 }
 </style>
 <%
@@ -39,14 +34,8 @@ if (user == null || !user.equalsIgnoreCase("user") || uname.equals("") || pword.
 
 }
 %>
-<jsp:include page="header.jsp"></jsp:include>
-<jsp:include page="vendorMenu.jsp"></jsp:include>
-<div class="clearfix hidden-sm hidden-xs"
-	style="color: white; background-color: green; margin-top: -15px; margin-bottom: 12px">
-	<marquee>Welcome to Tender Management Site</marquee>
-</div>
+<jsp:include page="vendorHeader.jsp"></jsp:include>
 <div class="container-fluid">
-
 	<div class="notice">
 		<div class="col-md-3" style="margin-left: 2%">
 			<%
@@ -59,7 +48,7 @@ if (user == null || !user.equalsIgnoreCase("user") || uname.equals("") || pword.
 	<div class="col-md-8">
 		<table style="background-color: white">
 			<tr
-				style="color: red; font-size: 22px; font-weight: bold; background-color: green">
+				style="color: white; font-size: 22px; font-weight: bold; background-color: brown">
 				<td>Tender Name</td>
 				<td>Tender Type</td>
 				<td>Base Price</td>
@@ -80,8 +69,6 @@ if (user == null || !user.equalsIgnoreCase("user") || uname.equals("") || pword.
 				java.sql.Date tdeadline = new java.sql.Date(udeadline.getTime());
 				String tdesc = tender.getDesc();
 			%>
-
-
 			<tr>
 				<td><%=tname%></td>
 				<td><%=ttype%></td>
@@ -90,14 +77,10 @@ if (user == null || !user.equalsIgnoreCase("user") || uname.equals("") || pword.
 				<td><%=tdeadline%></td>
 				<td><textarea rows="2" cols="45"><%=tdesc%></textarea></td>
 			</tr>
-
-
-
 			<%
 			}
 			%>
 		</table>
 	</div>
-
 </div>
 <jsp:include page="footer.jsp"></jsp:include>
