@@ -16,15 +16,15 @@
 			<!-- Developer 1 Mr. Yuvraj Dhawale-->
 			<div class="col-md-3 col-xs-12 col-sm-3">
 				<div class="col-md-5 col-xs-5 col-sm-5">
-					<img src="images\Mr. Vishal Sonwane.jpg"
+					<img src="images\YuvrajPic.jpg"
 						class="img-responsive img-circle pull-right"
 						style="width: 105px; height: 130px;"
-						alt="Mr. Yuvraj Dhawale Site Developer" title="Mr. Vishal Sonwane" />
+						alt="Mr. Yuvraj Dhawale Site Developer" title="Mr. Yuvraj Dhawale" />
 				</div>
 				<div class="col-md-7 col-xs-7 col-sm-7">
 					<div class="developers pull-left"
 						style="font-weight: bold; color: white; text-align: center;">
-						<br /> <span style="font-size: 1.7em;">Mr. Vishal Sonwane</span>
+						<br /> <span style="font-size: 1.7em;">Mr. Yuvraj Dhawale</span>
 					</div>
 				</div>
 			</div>
@@ -42,7 +42,6 @@
 					<div class="developers pull-left"
 						style="font-weight: bold; color: white; text-align: center;">
 						<br /> <span style="font-size: 1.7em;">Prof. Jayshri</span>
-						<!--                     <p><span>Web Designer</span></p> -->
 						<p></p>
 					</div>
 				</div>
@@ -59,17 +58,13 @@
 					<div class="developers pull-left"
 						style="font-weight: bold; color: white; text-align: center;">
 						<br /> <span style="font-size: 1.7em;">Mr.Dr.E.B.Khedkar</span>
-						<!--                     <p><span>Web Designer</span></p> -->
 					</div>
 				</div>
 			</div>
 			<br />
 		</div>
-		<!-- End of container class-->
 	</div>
-	<!-- End of navbar class-->
 </div>
-<!-- End of footer class-->
 <div class="navbar-inverse"
 	style="color: #cccccc; padding: 05px; margin-bottom: -17px; text-align: center; border-radius: 0px">
 	<span style="float: left; padding-left: 6.5%">&copy; Copyright

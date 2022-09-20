@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
-<link rel="shortcut icon" type="image/png" href="images/logo.png">
+<link rel="shortcut icon" type="image/png" href="images/mibsLogo.png">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +24,7 @@
 			<a href="#" class="pull-left"> <img src="images\mibsLogo.png"
 				alt="HIT Haldia" width="70px" height="70px" />
 			</a> <a class="navbar-brand" href="#"><h1>Tender Management
-					System</h1></a> <a href="https://mibspune.in/"><p>&nbsp Dr. D Y Patil School of MCA Lohegaon</p></a>
+					System</h1></a> <a href="https://mibspune.in/"><p>&nbsp P. E. Society's Modern Institute Of Business Studies (MIBS)</p></a>
 		</div>
 		<ul class="nav navbar-nav navbar-right menusize pull-right">
 			<li><a href="register.jsp"><span

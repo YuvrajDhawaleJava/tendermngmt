@@ -21,10 +21,10 @@
 	<nav class="navbar navbar-inverse"> <!-- Navigation Bar-->
 	<div class="container">
 		<div class="navbar-header">
-			<a href="#" class="pull-left"> <img src="images\logo.png"
+			<a href="#" class="pull-left"> <img src="images\mibsLogo.png"
 				alt="HIT Haldia" width="70px" height="70px" />
 			</a> <a class="navbar-brand" href="#"><h1>Tender Management
-					System</h1></a> <a href="https://mibspune.in/"><p>&nbsp Dr. D Y Patil School of MCA Lohegaon</p></a>
+					System</h1></a> <a href="https://mibspune.in/"><p>&nbsp P. E. Society's Modern Institute Of Business Studies (MIBS)</p></a>
 		</div>
 		<ul class="nav navbar-nav navbar-right menusize pull-right">
 			<li><a href="register.jsp"><span

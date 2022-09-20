@@ -22,9 +22,7 @@ if (!user.equalsIgnoreCase("admin") || uname.equals("") || pword.equals("")) {
 			%>
 
 			<jsp:include page="notice.jsp"></jsp:include><br>
-
 			<jsp:include page="approved.jsp"></jsp:include><br>
-
 		</div>
 	</div>
 	<div class="col-md-8">
@@ -34,7 +32,6 @@ if (!user.equalsIgnoreCase("admin") || uname.equals("") || pword.equals("")) {
 				style="background-color: black; margin-top: -1.8px; margin-bottom: 1px; padding: 5px; text-align: center; color: #ccddff; font-weight: bold">
 				&nbsp; <span id="pagetitle">Admin Account</span>
 			</h4>
-			<!-- pagetitle id is given here -->
 			<div class="marquee-content"
 				style="align: center; padding-top: 200px; min-height: 750px; background-color: #8fc4b7">
 				<h1>

@@ -10,7 +10,7 @@ if (!user.equalsIgnoreCase("admin") || uname.equals("") || pword.equals("")) {
 	response.sendRedirect("loginFailed.jsp");
 }
 %>
-<jsp:include page="header.jsp"></jsp:include>
+<jsp:include page="adminHeader.jsp"></jsp:include>
 <div class="container-fluid">
 	<div class="notice">
 		<div class="col-md-3" style="margin-left: 2%">
