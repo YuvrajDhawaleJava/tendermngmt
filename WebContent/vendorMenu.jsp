@@ -17,7 +17,7 @@
 						<li><a href="vendorViewTender.jsp">View all Tenders</a></li>
 						<li><a href="bidTender.jsp">Bid for a Tender</a></li>
 						<li><a href="bidHistory.jsp">Bidding History</a></li>
-						<li><a href="bidHistory.jsp">Bid Status</a></li>
+						<!-- <li><a href="bidHistory.jsp">Bid Status</a></li> -->
 					</ul></li>
 				<li class="dropdown"><a class="dropdown-toggle"
 					data-toggle="dropdown" data-hover="dropdown"

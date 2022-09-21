@@ -15,28 +15,12 @@ td {
 table {
 	text-align: center;
 	border-radius: 10px;
-	text-align: center;
-	margin: 20px;
-	color: #5c5c8a;
-	font-style: normal;
-	font-size: 15.5px;
-	padding: 20px;
-	cellpadding: 10;
 	cellspacing: 10;
 	margin: 20px;
 	color: #5c5c8a;
-	font-style: normal;
-	font-size: 15.5px;
-	padding: 20px;
-	color: #5c5c8a;
-	font-style: normal;
-	font-size: 15.5px;
 	padding: 20px;
 	font-style: normal;
 	font-size: 15.5px;
-	padding: 20px;
-	font-size: 15.5px;
-	padding: 20px;
 	padding: 20px;
 }
 

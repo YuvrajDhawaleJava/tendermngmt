@@ -22,7 +22,6 @@ table {
 	font-size: 15.5px;
 	padding: 20px;
 	cellpadding: 10;
-	cellspacing: 10;
 }
 
 tr:hover {
